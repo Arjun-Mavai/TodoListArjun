@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  purge: [
+    './index.html', // Include the HTML file that contains the bg-bisque class
+    // Add other purge rules if needed
+  ],
   content: [],
   presets: [],
   darkMode: 'media', // or 'class'

@@ -12,13 +12,13 @@ function TodoInput({ addTodo }) {
 
     return (
         <>
-        <div  >
-        <form onSubmit={handleSubmit}  >
+        <div>
+        <form onSubmit={handleSubmit} >
 
 
-        <div className="mt-48 bg-sky-500 "  >
+        <div className='mt-40'   >
     <input value={value} onChange={e => setValue(e.target.value)} className="p-2 border rounded-lg border-2 border-green-600 w-1/4 mx-auto" />
-    <button   className="ml-2 px-4 py-2 bg-blue-500 text-white rounded-md">Add</button>
+    <button   className="w-18 hover:bg-pink-900 ml-2 px-4 py-2 bg-indigo-500 text-white rounded-md">Add Task </button>
 </div>
 
 
